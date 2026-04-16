@@ -12,6 +12,7 @@ Base.metadata.create_all(bind=engine)
 origins = [
     "http://localhost",  # フロントエンドが動作しているドメイン
     "http://127.0.0.1:3000",  # 必要に応じて他のオリジンも追加
+    "https://todo-frontend-1-production.up.railway.app",
 ]
 
 # CORS ミドルウェアの設定
